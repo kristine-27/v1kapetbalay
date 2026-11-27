@@ -274,3 +274,5 @@ export const removeOrder = async (id) => {
     if (!order) throw new Error('Order not found.');
     return orderModel.deleteOrder(id);
 };
+
+/// Update orderService
