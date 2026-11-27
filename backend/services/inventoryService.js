@@ -192,3 +192,4 @@ export const stockUsage = async (id, quantityUsed, remarks) => {
 
     return { new_quantity: newQuantity };
 };
+/// bug fixes update
