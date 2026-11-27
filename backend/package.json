@@ -1,0 +1,17 @@
+{
+  "name": "kapet-balay-management-system",
+  "version": "1.0.0",
+  "description": "Kape't Balay Management System",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}

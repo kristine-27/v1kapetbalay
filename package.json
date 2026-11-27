@@ -1,0 +1,8 @@
+{
+  "name": "kapet-balay-management-system",
+  "private": true,
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev"
+  }
+}
