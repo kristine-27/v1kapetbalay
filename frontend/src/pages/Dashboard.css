@@ -1,0 +1,41 @@
+/* Dashboard — Clean minimal design */
+
+.dash-status-pending   { 
+    background: var(--warning-bg); 
+    color: var(--warning); 
+    padding: 4px 12px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+    font-weight: 600; 
+    display: inline-block; 
+}
+
+.dash-status-preparing { 
+    background: #f3e7d4;
+    color: #8a5a22; 
+    padding: 4px 12px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+    font-weight: 600; 
+    display: inline-block; 
+}
+
+.dash-status-ready { 
+    background: var(--success-bg); 
+    color: var(--success); 
+    padding: 4px 12px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+    font-weight: 600; 
+    display: inline-block; 
+}
+
+.dash-status-completed { 
+    background: var(--bg-secondary); 
+    color: var(--text-muted); 
+    padding: 4px 12px; 
+    border-radius: 6px; 
+    font-size: 11px; 
+    font-weight: 600; 
+    display: inline-block; 
+}
